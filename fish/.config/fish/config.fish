@@ -4,6 +4,6 @@ end
 
 set fish_greeting
 
-starship init fish | source
-
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+starship init fish | source
