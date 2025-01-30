@@ -4,6 +4,8 @@ end
 
 set fish_greeting
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
+if test (uname) = Darwin
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+end
 
 starship init fish | source
