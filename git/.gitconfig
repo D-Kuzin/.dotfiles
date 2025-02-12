@@ -3,3 +3,5 @@
 	name = Daniel Kuzin
 [pull]
 	ff = only
+[init]
+	defaultBranch = main
