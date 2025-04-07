@@ -1,8 +1,4 @@
 return {
-  { "akinsho/toggleterm.nvim", version = "*", opts = {
-    direction = "float",
-    open_mapping = [[<c-1>]],
-  } },
   {
     "nvim-neo-tree/neo-tree.nvim",
     opts = {
