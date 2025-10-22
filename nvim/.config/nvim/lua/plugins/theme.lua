@@ -1,5 +1,11 @@
 return {
   { "folke/tokyonight.nvim", enabled = false },
-  { "catppuccin/nvim", name = "catppuccin", opts = {} },
-  { "LazyVim/LazyVim", opts = { colorscheme = "catppuccin-mocha" } },
+  {
+    "catppuccin",
+    optional = true,
+    opts = {
+      integrations = { blink_cmp = true },
+    },
+  },
+  { "LazyVim/LazyVim", opts = { colorscheme = "catppuccin" } },
 }
