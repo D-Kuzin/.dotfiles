@@ -12,8 +12,6 @@ end
 
 starship init fish | source
 
-alias mit='cd ~/Documents/NCFSIMITDK/src/frontend/'
-alias ami='cd ~/Documents/NCAMI/src/frontend/'
 export PATH="$HOME/.local/bin:$PATH"
 
 # opencode
